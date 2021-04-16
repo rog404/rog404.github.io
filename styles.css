@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Text&display=swap");
+
+* {
+  margin: 0;
+  border: 0;
+  font-family: "Red Hat Text", sans-serif;
+}
+
+html {
+  background: #0d122b;
+  color: #d3edff;
+}
+
+* a {
+  text-decoration: none;
+  color: #d3edff;
+}
+
+header {
+  background: #000625;
+  height: 68px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav {
+  font-size: 18px;
+  flex: 2;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav a:hover {
+  color: #2da4fa;
+}
+
+#home {
+  flex: 2;
+  margin-left: 2%;
+  font-size: 30px;
+}
+
+#home a {
+  color: #2da4fa;
+}
+
+.nav-item {
+}
+
+#theme {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#theme img {
+  height: 16px;
+  margin: 2px;
+}
+
+#social-media {
+  flex: 1;
+  margin-left: 6%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-right: 2%;
+}
+
+#content {
+  padding: 2%;
+}
+
+#content h1 {
+  color: #2da4fa;
+  margin-left: 10%;
+}
+
+#alert {
+  padding: 2%;
+}
+
+#alert h1 {
+  font-size: 88px;
+  color: #2da4fa;
+  text-align: center;
+}
+
+footer {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  padding: 2%;
+}
+
+footer h3 {
+  align-self: center;
+  margin-left: 10%;
+}
